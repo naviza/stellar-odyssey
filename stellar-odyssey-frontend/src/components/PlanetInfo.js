@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Spline from '@splinetool/react-spline';
 import Dome from './Dome';
+import Human from './Human'
 
 function PlanetInfo() {
   return (
@@ -17,9 +18,10 @@ function PlanetInfo() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{ height: '500px' }}>
+          <Human />
           {/* Your slide content for the second item */}
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Gravity</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>

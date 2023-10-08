@@ -3,7 +3,13 @@ import React from 'react';
 function Header() {
   return (
     <>
-    <h1 style={{backgroundColor: 'blue'}}>Hello</h1>
+    <h1 style={{
+        backgroundColor: 'blue',
+        padding: '50px',
+        color: 'white',
+        }}>
+        PlanetBNB
+    </h1>
    </> 
   )
 }

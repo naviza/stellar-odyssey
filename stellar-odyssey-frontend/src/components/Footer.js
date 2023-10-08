@@ -30,7 +30,7 @@ function Footer() {
               <Form.Control placeholder="Subject" />
             </Row>
             <Row>
-              <textarea rows="10" name="message" placeholder="Message" style={{ borderRadius: '7px' }}></textarea>
+              <textarea rows="10" name="message" placeholder="Message" style={{ borderRadius: '7px', padding: '10px'}}></textarea>
             </Row>
           </Form>
         </div>

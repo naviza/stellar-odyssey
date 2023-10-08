@@ -6,7 +6,7 @@ import Dome from './Dome';
 function PlanetInfo() {
   return (
     <div className="flex-container" style={{ backgroundColor: 'transparent' }}>
-      <h1>PlanetInfo</h1>
+      <h1 style={{fontSize: '90px', color: 'white'}}>Planet Info</h1>
       <Carousel interval={null}> 
         <Carousel.Item style={{ height: '500px' }}>
           {/* Your slide content for the first item */}

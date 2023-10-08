@@ -1,13 +1,15 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Spline from '@splinetool/react-spline';
 
 function PlanetInfo() {
   return (
     <div className="flex-container" style={{ backgroundColor: 'blue' }}>
       <h1>PlanetInfo</h1>
-      <Carousel>
+      <Carousel interval={null}> 
         <Carousel.Item style={{ height: '500px' }}>
           {/* Your slide content for the first item */}
+          <Spline scene="https://prod.spline.design/Cs7idGADVQuddYDo/scene.splinecode" />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

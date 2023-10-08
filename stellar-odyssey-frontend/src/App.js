@@ -7,6 +7,7 @@ import Reviews from './components/Reviews';
 import OtherPlanets from './components/OtherPlanets';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PlanetFilter from './components/PlanetFilter';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       </Router> */}
       
       <Header />
+      <PlanetFilter />
       <Starter />
       <PlanetInfo />
       <Reviews />

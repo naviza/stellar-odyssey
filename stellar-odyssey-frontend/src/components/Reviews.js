@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
+import "../../src/cardComponent.css";
 
 function Reviews() {
   return (
@@ -20,23 +21,23 @@ function Reviews() {
       flexWrap: 'wrap'
       }}>
     {/* </div> */}
-    <Card border="primary" style={{ width: '36rem', margin: '10px' }}>
+    <Card bg={'secondary'} text={'white'}  className="collapseStyle" style={{ width: '36rem', margin: '10px' }}>
         <Card.Body>
           <Row>
-          <Col xs={6} md={4}>
+          {/* <Col xs={6} md={4}>
           <i class="fa-solid fa-user"></i>
-          </Col>
+          </Col> */}
           <Col>
           <Card.Title>Star Lord</Card.Title>
           </Col>
           
           </Row>
           <Card.Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          The overall vibe of the planet was okay. Not really a lot of food option, given the planet is barren most of the time, but it was okay. You still have hyperspatial satellite so you can communicate with everyone you need to. I couldn't park my spaceship anywhere on this planet so watch out for that.
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card border="primary" style={{ width: '36rem', margin: '10px' }}>
+      <Card bg={'secondary'} text={'white'}  border="primary" style={{ width: '36rem', margin: '10px' }}>
         <Card.Body>
           <Card.Title>X Æ A-Xii</Card.Title>
           <Card.Text>
@@ -45,7 +46,7 @@ function Reviews() {
         </Card.Body>
       </Card>
       
-      <Card border="primary" style={{ width: '36rem', margin: '10px' }}>
+      <Card bg={'secondary'} text={'white'}  border="primary" style={{ width: '36rem', margin: '10px' }}>
         <Card.Body>
           <Card.Title>Kokey</Card.Title>
           <Card.Text>
@@ -54,7 +55,7 @@ function Reviews() {
         </Card.Body>
       </Card>
       
-      <Card border="primary" style={{ width: '36rem', margin: '10px' }}>
+      <Card bg={'secondary'} text={'white'} border="primary" style={{ width: '36rem', margin: '10px' }}>
         <Card.Body>
           <Card.Title>Alien X</Card.Title>
           <Card.Text>

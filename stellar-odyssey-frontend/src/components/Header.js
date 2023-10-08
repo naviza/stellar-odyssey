@@ -4,9 +4,10 @@ function Header() {
   return (
     <>
     <h1 style={{
-        backgroundColor: 'blue',
+        backgroundColor: 'transparent',
         padding: '50px',
         color: 'white',
+        fontFamily: '-moz-initial'
         }}>
         PlanetBNB
     </h1>

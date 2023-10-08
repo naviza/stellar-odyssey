@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import "../../src/cardComponent.css";
+
 
 function Reviews() {
   return (
@@ -21,7 +21,7 @@ function Reviews() {
       flexWrap: 'wrap'
       }}>
     {/* </div> */}
-    <Card bg={'secondary'} text={'white'}  className="collapseStyle" style={{ width: '36rem', margin: '10px' }}>
+    <Card text={'white'}  className="collapseStyle" style={{ width: '36rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(5px)', WebkitBackdropFilter: 'blur(5px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
           <Row>
           {/* <Col xs={6} md={4}>

@@ -4,12 +4,12 @@ import Spline from '@splinetool/react-spline';
 
 function PlanetInfo() {
   return (
-    <div className="flex-container" style={{ backgroundColor: 'blue' }}>
+    <div className="flex-container" style={{ backgroundColor: 'transparent' }}>
       <h1>PlanetInfo</h1>
       <Carousel interval={null}> 
-        <Carousel.Item style={{ height: '500px' }}>
+        <Carousel.Item style={{ height: '800px' }}>
           {/* Your slide content for the first item */}
-          <Spline scene="https://prod.spline.design/Cs7idGADVQuddYDo/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/Cs7idGADVQuddYDo/scene.splinecode" style={{marginLeft: '180px'}}/>
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

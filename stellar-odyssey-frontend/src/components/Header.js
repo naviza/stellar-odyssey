@@ -7,7 +7,8 @@ function Header() {
         backgroundColor: 'transparent',
         padding: '50px',
         color: 'white',
-        fontFamily: '-moz-initial'
+        fontFamily: '-moz-initial',
+        left: 0
         }}>
         PlanetBNB
     </h1>

@@ -5,6 +5,7 @@ import Starter from './components/Starter';
 import PlanetInfo from './components/PlanetInfo';
 import Reviews from './components/Reviews';
 import OtherPlanets from './components/OtherPlanets';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
       <PlanetInfo />
       <Reviews />
       <OtherPlanets />
+      <Footer />
     </div>
   );
 }

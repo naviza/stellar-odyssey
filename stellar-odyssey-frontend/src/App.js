@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PlanetFilter from './components/PlanetFilter';
+import Overview from './components/Overview';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <PlanetFilter />
       <Starter />
       <PlanetInfo />
+      <Overview />
       <Reviews />
       <OtherPlanets />
       <Footer />

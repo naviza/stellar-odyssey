@@ -11,8 +11,7 @@ function Footer() {
         style={{
           backgroundColor: 'transparent',
           padding: '50px',
-          color: 'black',
-          fontFamily: '-moz-initial',
+          color: 'white'
         }}
       >
         Contact Us

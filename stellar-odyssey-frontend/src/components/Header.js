@@ -5,13 +5,28 @@ function Header() {
     <>
     <h1 style={{
         backgroundColor: 'transparent',
-        padding: '50px',
+        paddingright: '50px',
         color: 'white',
-        fontFamily: '-moz-initial',
-        left: 0
+        marginTop: '70px',
+        left: 0,
+        textAlign: 'left' ,
+        paddingRight: '100px' 
         }}>
         PlanetBNB
     </h1>
+    <h5 style={{
+        backgroundColor: 'transparent',
+        paddingright: '50px',
+        color: 'white',
+        marginBottom: '70px',
+        left: 0,
+        fontStyle: 'italic',
+        textAlign: 'left' ,
+        paddingRight: '100px' 
+        }}>
+          Cosmic Gateways brought to you by Steller Odyssey
+
+    </h5>
    </> 
   )
 }

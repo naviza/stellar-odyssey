@@ -8,6 +8,7 @@ import OtherPlanets from './components/OtherPlanets';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PlanetFilter from './components/PlanetFilter';
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </Router> */}
-      
       <Header />
+      <PlanetFilter />
       <Starter />
       <PlanetInfo />
       <Reviews />

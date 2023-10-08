@@ -6,10 +6,18 @@ import PlanetInfo from './components/PlanetInfo';
 import Reviews from './components/Reviews';
 import OtherPlanets from './components/OtherPlanets';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router> */}
+      
       <Header />
       <Starter />
       <PlanetInfo />

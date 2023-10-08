@@ -11,6 +11,8 @@
 body {
   margin: 0;
   background-color: #17182f;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 canvas {

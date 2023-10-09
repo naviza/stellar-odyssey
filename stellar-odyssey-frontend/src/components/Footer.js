@@ -36,7 +36,7 @@ function Footer() {
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px', marginBottom: '100px' }}>
         <div className="d-grid gap-2">
-          <Button variant="primary" size="lg">
+          <Button variant="primary" size="md" style={{ backgroundColor: '#001f3f' }}>
             Submit
           </Button>
         </div>

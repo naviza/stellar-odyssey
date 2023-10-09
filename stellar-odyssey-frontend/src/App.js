@@ -1,33 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Starter from './components/Starter';
-import PlanetInfo from './components/PlanetInfo';
-import Reviews from './components/Reviews';
-import OtherPlanets from './components/OtherPlanets';
-import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PlanetFilter from './components/PlanetFilter';
 import Overview from './components/Overview';
+import Home from './components/Home'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/overview" element={<Overview />} />
         </Routes>
-      </Router> */}
-      <Header />
-      <PlanetFilter />
-      <Starter />
-      <PlanetInfo />
-      <Overview />
-      <Reviews />
-      <OtherPlanets />
-      <Footer />
+      </Router>
     </div>
   );
 }

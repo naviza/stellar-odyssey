@@ -14,7 +14,7 @@ function Reviews() {
     <div style={{
       padding: '20px'
       }}>
-    <h1 style={{color:'white', fontSize: '80px', paddingTop:'50px', paddingBottom: '20px'}}> Testimonials </h1>
+    <h1 style={{color:'white', fontSize: '75px', paddingTop:'50px', paddingBottom: '20px'}}> Testimonials </h1>
     <div style={{
       display:'flex',
       justifyContent: 'space-evenly',

@@ -12,16 +12,16 @@ function Reviews() {
     // <h1>Reviews</h1>
     
     <div style={{
-      padding: '10px'
+      padding: '20px'
       }}>
-    <h1> Testimonials </h1>
+    <h1 style={{color:'white'}}> Testimonials </h1>
     <div style={{
       display:'flex',
       justifyContent: 'space-evenly',
       flexWrap: 'wrap'
       }}>
     {/* </div> */}
-    <Card text={'white'}  className="collapseStyle" style={{ width: '36rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
+    <Card text={'white'}  className="collapseStyle" style={{ width: '18rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
           <Row>
           {/* <Col xs={6} md={4}>
@@ -37,7 +37,8 @@ function Reviews() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card bg={'secondary'} text={'white'}  border="primary" style={{ width: '36rem', margin: '10px' }}>
+      
+    <Card text={'white'}  className="collapseStyle" style={{ width: '18rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
           <Card.Title>X Æ A-Xii</Card.Title>
           <Card.Text>
@@ -46,20 +47,22 @@ function Reviews() {
         </Card.Body>
       </Card>
       
-      <Card bg={'secondary'} text={'white'}  border="primary" style={{ width: '36rem', margin: '10px' }}>
+      
+    <Card text={'white'}  className="collapseStyle" style={{ width: '18rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
           <Card.Title>Kokey</Card.Title>
           <Card.Text>
-          ☹︎□︎❒︎♏︎❍︎ ♓︎◻︎⬧︎◆︎❍︎ ♎︎□︎●︎□︎❒︎ ⬧︎♓︎⧫︎ ♋︎❍︎♏︎⧫︎📪︎ ♍︎□︎■︎⬧︎♏︎♍︎⧫︎♏︎⧫︎◆︎❒︎ ♋︎♎︎♓︎◻︎♓︎⬧︎♍︎♓︎■︎♑︎ ♏︎●︎♓︎⧫︎📪︎ ⬧︎♏︎♎︎ ♎︎□︎ ♏︎♓︎◆︎⬧︎❍︎□︎♎︎ ⧫︎♏︎❍︎◻︎□︎❒︎ ♓︎■︎♍︎♓︎♎︎♓︎♎︎◆︎■︎⧫︎ ◆︎⧫︎ ●︎♋︎♌︎□︎❒︎♏︎ ♏︎⧫︎ ♎︎□︎●︎□︎❒︎♏︎ ❍︎♋︎♑︎■︎♋︎ ♋︎●︎♓︎❑︎◆︎♋︎📬︎ 🕆︎⧫︎ ♏︎■︎♓︎❍︎ ♋︎♎︎ ❍︎♓︎■︎♓︎❍︎ ❖︎♏︎■︎♓︎♋︎❍︎📪︎ ❑︎◆︎♓︎⬧︎ ■︎□︎⬧︎⧫︎❒︎◆︎♎︎ ♏︎⌧︎♏︎❒︎♍︎♓︎⧫︎♋︎⧫︎♓︎□︎■︎ ◆︎●︎●︎♋︎❍︎♍︎□︎ ●︎♋︎♌︎□︎❒︎♓︎⬧︎ ■︎♓︎⬧︎♓︎ ◆︎⧫︎ ♋︎●︎♓︎❑︎◆︎♓︎◻︎ ♏︎⌧︎ ♏︎♋︎ ♍︎□︎❍︎❍︎□︎♎︎□︎ ♍︎□︎■︎⬧︎♏︎❑︎◆︎♋︎⧫︎📬︎
+          ❒︎♏︎❍︎ ♓︎◻︎⬧︎◆︎❍︎ ♎︎□︎●︎□︎❒︎ ⬧︎♓︎⧫︎ ♋︎❍︎♏︎⧫︎📪︎ ♍︎□︎■︎⬧︎♏︎♍︎⧫︎♏︎⧫︎◆︎❒︎ ♋︎♎︎♓︎◻︎♓︎⬧︎♍︎♓︎■︎♑︎ ♏︎●︎♓︎⧫︎📪︎ ⬧︎♏︎♎︎ ♎︎□︎ ♏︎♓︎◆︎⬧︎❍︎□︎♎︎ ⧫︎♏︎❍︎◻︎□︎❒︎ ♓︎■︎♍︎♓︎♎︎♓︎♎︎◆︎■︎⧫︎ ◆︎⧫︎ ●︎♋︎♌︎□︎❒︎♏︎ ♏︎⧫︎ ♎︎□︎●︎□︎❒︎♏︎ ❍︎♋︎♑︎■︎♋︎ ♋︎●︎♓︎❑︎◆︎♋︎📬︎ 🕆︎⧫︎ ♏︎■︎♓︎❍︎ ♋︎♎︎ ❍︎♓︎■︎♓︎❍︎
           </Card.Text>
         </Card.Body>
       </Card>
       
-      <Card bg={'secondary'} text={'white'} border="primary" style={{ width: '36rem', margin: '10px' }}>
+      
+    <Card text={'white'}  className="collapseStyle" style={{ width: '18rem', margin: '10px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
           <Card.Title>Alien X</Card.Title>
           <Card.Text>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
           </Card.Text>
         </Card.Body>
       </Card>

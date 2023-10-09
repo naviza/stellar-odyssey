@@ -11,10 +11,12 @@ function Starter() {
             alignItems: 'center',
             backgroundColor: 'transparent',
             justifyContent: 'space-evenly',
+            paddingTop: '50px',
+            paddingBottom: '100px'
             }}>
         <div >
-          <h1 style={{fontSize: '90px', color: 'white'}}>Europa</h1>
-          <p style={{padding: '0 40px', backgroundColor: 'transparent', color: 'white', marginLeft: '40px', fontSize: '20px'}}>Escape to Paradise: Edmund's Planet Vacation!
+          <h1 style={{fontSize: '90px', color: 'white'}}>Edmund</h1>
+          <p className='p' style={{padding: '0 40px', backgroundColor: 'transparent', color: 'white', marginLeft: '40px', fontSize: '20px'}}>Escape to Paradise: Edmund's Planet Vacation!
 Imagine an otherworldly getaway on Edmund's Planet, nestled in the enchanting Seraphinae Universe. It's the ultimate cosmic vacation you've been dreaming of!
 Year-Round Bliss: Revel in a year of idyllic weather during Edmund's Planet's Goldilocks Zone. Perfect temperatures, lush landscapes, and pristine beaches await.
 Nature's Wonderland: Explore lush forests, meandering rivers, and ethereal canyons. Hike the towering mountains and unwind by crystalline lakes. It's nature at its finest!

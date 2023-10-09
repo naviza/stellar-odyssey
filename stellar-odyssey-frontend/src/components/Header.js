@@ -7,7 +7,7 @@ function Header() {
         fontSize: '40px',
         backgroundColor: 'transparent',
         color: 'white',
-        marginTop: '45px',
+        paddingTop: '45px',
         left: 0, 
         display: 'flex', 
         textIndent: '50px'

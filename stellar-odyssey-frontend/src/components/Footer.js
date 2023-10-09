@@ -7,11 +7,13 @@ import Button from 'react-bootstrap/Button';
 function Footer() {
   return (
     <>
+    <div className='contact'>
       <h1
         style={{
           backgroundColor: 'transparent',
           padding: '50px',
-          color: 'white'
+          color: 'white',
+          fontSize: '80px'
         }}
       >
         Contact Us
@@ -19,13 +21,13 @@ function Footer() {
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
         <div style={{ width: '70%' }}>
           <Form>
-            <Row style={{ marginBottom: '10px' }}>
+            <Row style={{ marginBottom: '20px' }}>
               <Form.Control placeholder="Name" />
             </Row>
-            <Row style={{ marginBottom: '10px' }}>
+            <Row style={{ marginBottom: '20px' }}>
               <Form.Control placeholder="Email" />
             </Row>
-            <Row style={{ marginBottom: '10px' }}>
+            <Row style={{ marginBottom: '20px' }}>
               <Form.Control placeholder="Subject" />
             </Row>
             <Row>
@@ -34,13 +36,14 @@ function Footer() {
           </Form>
         </div>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px', marginBottom: '100px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px', marginBottom: '20px' }}>
         <div className="d-grid gap-2">
           <Button variant="primary" size="lg">
             Submit
           </Button>
         </div>
       </div>
+    </div>
     </>
   );
 }

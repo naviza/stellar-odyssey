@@ -8,12 +8,13 @@
   background-position: 10px 10px, 50px 125px, 125px 95px, 25px 70px;
 }
 
-html {  
+.contact {  
   background-color: transparent;
   background-image: url(https://cdn.discordapp.com/attachments/1143732783559225437/1160718094629613649/og10x_the_surface_of_an_icy_planet_that_has_volcanos_erupting_a_550e130e-9571-4fb6-934b-a1662402304e.png?ex=6535adf6&is=652338f6&hm=d70d28ad9f1daa478eb192d526863c3261c4bb2313ba65efc08650eb7e479322&);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  height: 800px;
 }
 
 

@@ -28,7 +28,7 @@ function Reviews() {
           <i class="fa-solid fa-user"></i>
           </Col> */}
           <Col>
-          <Card.Title style={{fontSize: '28px'}}>Star Lord</Card.Title>
+          <Card.Title style={{fontSize: '28px', textAlign: 'left', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between'}}><div>Star Lord</div><div style={{color: '#d4d4d4e8', fontSize: '20px', paddingTop: '6px'}}>6 days ago</div></Card.Title>
           </Col>
           
           </Row>
@@ -40,7 +40,7 @@ function Reviews() {
       
     <Card text={'white'}  className="collapseStyle" style={{ width: '32rem' ,margin: '20px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
-          <Card.Title style={{fontSize: '28px'}}>X Æ A-Xii</Card.Title>
+          <Card.Title style={{fontSize: '28px', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between'}}><div>X Æ A-Xii</div><div style={{color: '#d4d4d4e8', fontSize: '20px', paddingTop: '6px'}}>21 days ago</div></Card.Title>
           <Card.Text>
           The Planet in Edmunds offers a luxurious and convenient stay for those willing to invest in a top-tier experience. Its central location, impeccable service, and dining options make it a solid choice for both business travelers and tourists. However, travelers on a tight budget might want to explore more economical alternatives in the galaxy.
           </Card.Text>
@@ -50,7 +50,7 @@ function Reviews() {
       
     <Card text={'white'}  className="collapseStyle" style={{ width: '32rem' ,margin: '20px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
-          <Card.Title style={{fontSize: '28px'}}>Kokey</Card.Title>
+          <Card.Title style={{fontSize: '28px', textAlign: 'left', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between'}}><div>Kokey</div><div style={{color: '#d4d4d4e8', fontSize: '20px', paddingTop: '6px'}}>2 months ago</div></Card.Title>
           <Card.Text>
           ❒︎♏︎❍︎ ♓︎◻︎⬧︎◆︎❍︎ ♎︎□︎●︎□︎❒︎ ⬧︎♓︎⧫︎ ♋︎❍︎♏︎⧫︎📪︎ ♍︎□︎■︎⬧︎♏︎♍︎⧫︎♏︎⧫︎◆︎❒︎ ♋︎♎︎♓︎◻︎♓︎⬧︎♍︎♓︎■︎♑︎ ♏︎●︎♓︎⧫︎📪︎ ⬧︎♏︎♎︎ ♎︎□︎ ♏︎♓︎◆︎⬧︎❍︎□︎♎︎ ⧫︎♏︎❍︎◻︎□︎❒︎ ♓︎■︎♍︎♓︎♎︎♓︎♎︎◆︎■︎⧫︎ ◆︎⧫︎ ●︎♋︎♌︎□︎❒︎♏︎ ♏︎⧫︎ ♎︎□︎●︎□︎❒︎♏︎ ❍︎♋︎♑︎■︎♋︎ ♋︎●︎♓︎❑︎◆︎♋︎📬︎ 🕆︎⧫︎ ♏︎■︎♓︎❍︎ ♋︎♎︎ ❍︎♓︎■︎♓︎❍︎
           </Card.Text>
@@ -60,7 +60,7 @@ function Reviews() {
       
     <Card text={'white'}  className="collapseStyle" style={{ width: '32rem' ,margin: '20px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '12px', backdropFilter: 'blur(2.6px)', WebkitBackdropFilter: 'blur(2.6px)', border: '1px solid rgba(255, 255, 255, 0.23)' }}>
         <Card.Body>
-          <Card.Title style={{fontSize: '28px'}}>Alien X</Card.Title>
+          <Card.Title style={{fontSize: '28px', textAlign: 'left', paddingLeft: '10px', display: 'flex', justifyContent: 'space-between'}}><div>Alien X</div><div style={{color: '#d4d4d4e8', fontSize: '20px', paddingTop: '6px'}}>3 months ago</div></Card.Title>
           <Card.Text>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
           </Card.Text>

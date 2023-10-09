@@ -8,9 +8,9 @@ import Button from 'react-bootstrap/Button';
 function OtherPlanets() {
   return (
     <div style={{
-      padding: '20px'
+      padding: '70px 20px'
       }}>
-    <h1 style={{color:'white'}}> Recommended Planets </h1>
+    <h1 style={{color:'white', fontSize: '70px', paddingTop:'50px', paddingBottom: '30px'}}> Recommended Planets </h1>
     <div style={{
       display:'flex',
       justifyContent: 'space-evenly',

@@ -6,3 +6,4 @@ Imagine an otherworldly getaway on Edmund's Planet, nestled in the enchanting Se
 
 
 check it out at https://stellar-odyssey.vercel.app/
+check the demo video at https://studio.youtube.com/video/sVCI420y-kM/edit

@@ -4,25 +4,25 @@ function Header() {
   return (
     <>
     <h1 style={{
+        fontSize: '40px',
         backgroundColor: 'transparent',
-        paddingright: '50px',
         color: 'white',
-        marginTop: '70px',
-        left: 0,
-        textAlign: 'left' ,
-        paddingRight: '100px' 
+        marginTop: '45px',
+        left: 0, 
+        display: 'flex', 
+        textIndent: '50px'
         }}>
         PlanetBNB
     </h1>
     <h5 style={{
         backgroundColor: 'transparent',
-        paddingright: '50px',
-        color: 'white',
-        marginBottom: '70px',
+        color: '#B0B0B0',
+        marginBottom: '40px',
         left: 0,
         fontStyle: 'italic',
         textAlign: 'left' ,
-        paddingRight: '100px' 
+        display: 'flex', 
+        textIndent: '50px',
         }}>
           Cosmic Gateways brought to you by Steller Odyssey
 

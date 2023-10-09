@@ -17,6 +17,10 @@ function PlanetFilter() {
     <div style={{
         display: 'd-flex', 
         padding: '20px',
+        backgroundColor: '#B0B0B07F',
+        
+        // display: 'flex',
+        // justifyContent: 'center'
     }} >
     <Form>
         <Container>
@@ -50,7 +54,7 @@ function PlanetFilter() {
             <Col sm={2}>
             <Form.Group controlId="text5">
 
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="primary" onClick={handleShow} style={{ backgroundColor: '#001f3f' }}>
                 Submit
             </Button>
             <Modal show={show} onHide={handleClose}>
